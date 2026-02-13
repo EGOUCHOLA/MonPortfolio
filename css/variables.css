@@ -1,0 +1,26 @@
+:root {
+    --background: #1F1B1E;
+    --font-color: #FCFCFD;
+    --title-color: #97AEC2;
+    --div-child-background: #272428;
+    --input-text-color: #ABAAB1;
+    --button-color-primary: #97AEC2;
+    --button-color-secondary: #ABAAB1;
+    --button-text-color: #1F1B1E;
+    --blue: rgb(56, 56, 152);
+
+    --font-police: 'Nunito';
+    --font-title: 'Suez One';
+
+    --fontsize-mobile: 24px;
+    --fontsize-input-mobile: 20px;
+    --fontsize-h1-mobile: 60px;
+    --fontsize-h2-mobile: 44px;
+    --fontsize-h3-mobile: 34px;
+
+    --fontsize-desktop: 28px;
+    --fontsize-input-desktop: 24px;
+    --fontsize-h1-desktop: 64px;
+    --fontsize-h2-desktop: 48px;
+    --fontsize-h3-desktop: 38px;
+}

@@ -1,0 +1,228 @@
+@import url(variables.css);
+
+* {
+    padding: 0% 0%;
+}
+
+p {
+    font-family:var(--font-police) ;
+    font-size: var(--fontsize-mobile);
+    text-align: justify;
+    color: var(--font-color);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    min-height: 39px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--background);
+}
+
+h1,h2,h3 {
+    font-family: var(--font-title);
+    color: var(--title-color);
+}
+
+h1 {
+    font-size: var(--fontsize-h1-mobile);
+    margin: -15px 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: var(--fontsize-h2-mobile);
+    width: 398px;
+    min-height: 65px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-size: var(--fontsize-h3-mobile);
+}
+
+.body-sexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 15px;
+    padding: 20px 20px;
+}
+
+.profil-sexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statut {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.arc {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.picture-sexion {
+    position: relative;
+}
+
+.picture {
+    background: var(--font-color);
+    border-radius: 50%;
+    border: 0px;
+    max-width: 279.91px;
+    width: 100%;
+    height: 269px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 0px;
+}
+
+.competence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.competence-one > div,.competence-two > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 404px;
+    width: 100%;
+    height: 283px;
+    background-color: var(--div-child-background);
+    border-radius: 18px;
+    margin-bottom: 20px;
+    column-gap: 0px;
+    border: 0.6px solid var(--title-color);
+}
+
+.competence-one > div > p,.competence-two > div > p {
+    margin-top: -8%;
+}
+
+.competence img {
+    position: relative;
+    width: 59px;
+    height: 59px;
+    margin: 0px 0px;
+    margin-bottom: -6%;
+    margin-top: -8%;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button img {
+    margin-bottom: -8%;
+}
+
+button {
+    border-radius: 10px;
+    background: var(--button-color-primary);
+    min-width: 196px;
+    width: auto;
+    min-height: 43px;
+    height: auto;
+    border: none;
+    font-family: var(--font-police);
+    font-size: var(--fontsize-mobile);
+    color: var(--background);
+}
+
+.views {
+    border-radius: 10px;
+    background: var(--button-color-primary);
+    min-width: 196px;
+    width: auto;
+    min-height: 43px;
+    height: auto;
+    border: none;
+    font-family: var(--font-police);
+    font-size: var(--fontsize-mobile);
+    color: var(--background);
+}
+
+.download {
+    border-radius: 10px;
+    background: var(--button-color-secondary);
+    min-width: 196px;
+    width: auto;
+    min-height: 43px;
+    height: auto;
+    border: none;
+    font-family: var(--font-police);
+    font-size: var(--fontsize-mobile);
+    color: var(--background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.cadre-competence {
+    background-color: none;
+    box-shadow: 1px 1px 10px var(--title-color);
+
+}
+
+.cadre-button {
+    background-color: none;
+    box-shadow: 1px 1px 14px var(--blue);
+
+}
+
+.cadre-download {
+
+    border-radius: 10px;
+    background: var(--button-color-secondary);
+    min-width: 196px;
+    width: auto;
+    min-height: 43px;
+    height: auto;
+    border: none;
+    font-family: var(--font-police);
+    font-size: var(--fontsize-mobile);
+    color: var(--background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 14px var(--blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width:578px) {
+    
+    
+}
