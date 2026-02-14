@@ -6,7 +6,7 @@ cadreCompetence.forEach((cadreCompetence)=>{
         cadreCompetence.classList="cadre-competence";
     })
     cadreCompetence.addEventListener("mouseleave",()=>{
-        cadreCompetence.classList="competence-one > div";
+        cadreCompetence.classList.remove("cadre-competence");
     })
 })
 
