@@ -17,10 +17,15 @@
     --fontsize-h1-mobile: 60px;
     --fontsize-h2-mobile: 44px;
     --fontsize-h3-mobile: 34px;
+    --fontsize-h4-mobile: 34px;
+
+    --fontsize-tablette: 24px;
 
     --fontsize-desktop: 28px;
     --fontsize-input-desktop: 24px;
     --fontsize-h1-desktop: 64px;
     --fontsize-h2-desktop: 48px;
     --fontsize-h3-desktop: 38px;
+    --fontsize-h4-desktop: 38px;
+    --fontsize-header-desktop:40px
 }
