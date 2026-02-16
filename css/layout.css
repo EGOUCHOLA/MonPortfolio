@@ -72,6 +72,51 @@ img {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    width: 100%;
+}
+
+.footer-list h4{
+    font-size: var(--fontsize-mobile);
+    margin: 0px 0px;
+}
+
+.footer-list img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width:  28px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    max-width: 382px;
+}
+
 a {
     text-decoration: none;
     color: var(--font-color);
@@ -122,6 +167,52 @@ img {
     height: 0.4px;
     background-color: var(--font-color);
     width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: auto;
+    width: 100%;
+}
+
+.footer-list h4{
+    font-size: var(--fontsize-mobile);
+    margin: 0px 0px;
+}
+
+.footer-list img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width:  30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    max-width: 382px;
 }
 
 a {
@@ -191,6 +282,52 @@ img {
     height: 0.4px;
     background-color: var(--font-color);
     width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: auto;
+    width: 100%;
+}
+
+.footer-list h4{
+    font-size: var(--fontsize-mobile);
+    margin: 0px 0px;
+}
+
+.footer-list img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width:  30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    max-width: 382px;
 }
 
 a {
