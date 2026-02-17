@@ -19,12 +19,13 @@ h2 {
     font-size: var(--fontsize-h3-mobile);
     font-family: var(--font-title);
     margin: 0px 0px;
+    text-align: justify;
 }
 
 h4 {
     font-family: var(--font-police);
     color: var(--title-color);
-    font-size: var(--fontsize-h4-mobile);
+    font-size: var(--fontsize-mobile);
     margin: 0px 0px;
 }
 
@@ -344,7 +345,7 @@ h2 {
 h4 {
     font-family: var(--font-police);
     color: var(--title-color);
-    font-size: var(--fontsize-h4-desktop);
+    font-size: var(--fontsize-desktop);
     margin: 0px 0px;
     }
     
