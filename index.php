@@ -1,5 +1,6 @@
 <?php
 $title = 'Acceuil';
+$pageCss = '<link rel="stylesheet" href="/css/index.css">';
 include 'pages/header.php';
 ?> 
 <body>
