@@ -466,7 +466,7 @@ a {
         flex-direction: row;
         align-items: center;
         align-content: center;
-        box-shadow: 1px 1px 14px var(--blue);
+        box-shadow: 0.6px 0.6px 10px var(--font-color);
     }
 
     .cadre-header {
